@@ -1,0 +1,12 @@
+{
+  "name": "node-map-guide",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev-build": "docsify serve docs"
+  },
+  "devDependencies": {
+    "docsify-cli": "^4.4.0"
+  }
+}
