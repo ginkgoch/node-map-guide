@@ -12,6 +12,7 @@ Open your terminal and follow the commands below:
 mkdir quick-started-cmd
 cd quick-started-cmd
 yarn init -y
+yarn add ginkgoch-map
 touch main.js
 ```
 
