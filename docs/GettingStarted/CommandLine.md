@@ -1,1 +1,1 @@
-# Getting Started
+# Quick Started for Command Line Tool

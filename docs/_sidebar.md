@@ -1,5 +1,5 @@
 * [Welcome](/)
-* [Getting Started](/GettingStarted)
+* [Getting Started](/GettingStarted/)
     * [Setup](GettingStarted/Setup.md)
     * [Quick Start for Command Line Tool](GettingStarted/CommandLine.md)
     * [Quick Start for Desktop](GettingStarted/Desktop.md)
