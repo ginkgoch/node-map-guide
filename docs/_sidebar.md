@@ -6,8 +6,8 @@
     * [Quick Start for Service](GettingStarted/Service.md)
     * [Quick Start for Web](GettingStarted/Web.md)
 
-* [Feature Basis](/Basis/)
-    * [Geometry](Basis/Geometry.md)
+* [Basis](/Basis/)
+    * [Geometries](Basis/Geometries.md)
     * [Style](Basis/Style.md)
     * [Source and Layer](Basis/LayerAndSource.md)
         * [About Source](Basis/LayerAndSource/AboutSource.md)
