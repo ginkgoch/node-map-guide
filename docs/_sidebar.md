@@ -4,7 +4,7 @@
     * [Quick Start for Command Line Tool](GettingStarted/CommandLine.md)
     * [Quick Start for Desktop](GettingStarted/Desktop.md)
     * [Quick Start for Service](GettingStarted/Service.md)
-    * [Quick Start for Web Application](GettingStarted/Web.md)
+    * [Quick Start for Web](GettingStarted/Web.md)
 
 * [Basic](/Features/)
     * [Geometry](Features/Geometry.md)
@@ -15,11 +15,11 @@
     * [Spatial Analysis](Features/SpatialAnalysis.md)
     * [Data Visualization](Features/DataVisual.md)
 
-* [Cross Platform](/CrossPlatform/)
+<!-- * [Advanced](/Advanced/)
     * [Command Line](CrossPlatform/CommandLine.md)
     * [Desktop](CrossPlatform/Desktop.md)
     * [Service](CrossPlatform/Service.md)
-    * [Web Application](CrossPlatform/Web.md)
+    * [Web](CrossPlatform/Web.md) -->
 
 * [Meta](/Meta/)
     * [Release Note](Meta/ReleaseNote.md)
