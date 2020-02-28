@@ -6,20 +6,20 @@
     * [Quick Start for Service](GettingStarted/Service.md)
     * [Quick Start for Web](GettingStarted/Web.md)
 
-* [Basic](/Features/)
-    * [Geometry](Features/Geometry.md)
-    * [Style](Features/Style.md)
-    * [Source and Layer](Features/LayerAndSource.md)
-        * [About Source](Features/LayerAndSource/AboutSource.md)
-        * [About Layer](Features/LayerAndSource/AboutLayer.md)
-    * [Spatial Analysis](Features/SpatialAnalysis.md)
-    * [Data Visualization](Features/DataVisual.md)
+* [Basis](/Basis/)
+    * [Geometry](Basis/Geometry.md)
+    * [Style](Basis/Style.md)
+    * [Source and Layer](Basis/LayerAndSource.md)
+        * [About Source](Basis/LayerAndSource/AboutSource.md)
+        * [About Layer](Basis/LayerAndSource/AboutLayer.md)
+    * [Spatial Analysis](Basis/SpatialAnalysis.md)
+    * [Data Visualization](Basis/DataVisual.md)
 
 <!-- * [Advanced](/Advanced/)
-    * [Command Line](CrossPlatform/CommandLine.md)
-    * [Desktop](CrossPlatform/Desktop.md)
-    * [Service](CrossPlatform/Service.md)
-    * [Web](CrossPlatform/Web.md) -->
+    * [Command Line](Advanced/CommandLine.md)
+    * [Desktop](Advanced/Desktop.md)
+    * [Service](Advanced/Service.md)
+    * [Web](Advanced/Web.md) -->
 
 * [Meta](/Meta/)
     * [Release Note](Meta/ReleaseNote.md)
