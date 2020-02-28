@@ -1,5 +1,6 @@
 # Quick Started for Command Line Tool
 > This quick started guide assumes the [setup](GettingStarted/Setup) page is read and the environment is prepared.
+> The complete source code is in [github](https://github.com/ginkgoch/node-map-quickstart/tree/master/quick-started-cmd).
 
 ## User Story
 For a software development, defining the user story is the first thing. Our quick started user story is this.

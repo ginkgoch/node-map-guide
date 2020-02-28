@@ -1,5 +1,8 @@
 # Quick Started for Web
-In the [previous guide](GettingStarted/Service), we setup a tiled map service by accessing map tiles by XYZ standard. This guide, we will continue working on this project to add client code to build an interactive map.
+> This quick started guide assumes the [setup](GettingStarted/Setup) page is read and the environment is prepared.
+> The complete source code is in [github](https://github.com/ginkgoch/node-map-quickstart/tree/master/quick-started-web).
+
+In the previous [quick start guide for service](GettingStarted/Service), we setup a tiled map service by accessing map tiles by XYZ standard. This guide, we will continue working on this project to add client code to build an interactive map.
 
 ## User Story
 For a software development, defining the user story is the first thing. Our quick started user story is this.
