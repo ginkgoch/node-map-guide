@@ -148,6 +148,3 @@ export default class GeometryFactory {
 }
 ```
 
-# Related Types
-The following types are related to the geometries above.
-
