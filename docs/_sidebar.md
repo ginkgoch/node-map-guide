@@ -9,6 +9,7 @@
 * [Basis](/Basis/)
     * [Geometries](Basis/Geometries/)
         * [Geometry](Basis/Geometries/Geometry.md)
+        * [Feature](Basis/Geometries/Feature.md)
         * [Shared](Basis/Geometries/Shared.md)
     * [Style](Basis/Style.md)
     * [Source and Layer](Basis/LayerAndSource.md)
