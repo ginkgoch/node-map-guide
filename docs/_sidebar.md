@@ -7,7 +7,9 @@
     * [Quick Start for Web](GettingStarted/Web.md)
 
 * [Basis](/Basis/)
-    * [Geometries](Basis/Geometries.md)
+    * [Geometries](Basis/Geometries/)
+        * [Geometry](Basis/Geometries/Geometry.md)
+        * [Shared](Basis/Geometries/Shared.md)
     * [Style](Basis/Style.md)
     * [Source and Layer](Basis/LayerAndSource.md)
         * [About Source](Basis/LayerAndSource/AboutSource.md)

@@ -1,8 +1,4 @@
-# Geometries
-
-`Geometry` is the most important object in GIS world. It defines a spatial location and an associated geometric shape. In many spatial analysis workflows, you may not work easily without it. Geometry objects can be created from scratch using `GeometryFactory`, `Point`, `LineString`, `Polygon`, `MultiPoint`, `MultiLineString`, `MultiPolygon` and `GeometryCollection`.
-
-## Geometry Class
+# Geometry Class
 The base class of all geometries.
 
 ```javascript
@@ -60,7 +56,7 @@ export default abstract class Geometry {
 }
 ```
 
-### Point Class
+## Point Class
 Extends `Geometry`.
 ```javascript
 export default class Point extends Geometry {
@@ -71,7 +67,7 @@ export default class Point extends Geometry {
 }
 ```
 
-### LineString Class
+## LineString Class
 Extends `Geometry`.
 ```javascript
 export default class LineString extends Geometry {
@@ -82,7 +78,7 @@ export default class LineString extends Geometry {
 }
 ```
 
-### Polygon Class
+## Polygon Class
 Extends `Geometry`.
 ```javascript
 export default class Polygon extends Geometry {
@@ -93,7 +89,7 @@ export default class Polygon extends Geometry {
 }
 ```
 
-### GeometryCollectionBase Class
+## GeometryCollectionBase Class
 Extends `Geometry`.
 ```javascript
 export default abstract class GeometryCollectionBase<T extends Geometry> extends Geometry {
@@ -102,7 +98,7 @@ export default abstract class GeometryCollectionBase<T extends Geometry> extends
 }
 ```
 
-### MultiPoint Class Class
+## MultiPoint Class Class
 Extends `Geometry`.
 ```javascript
 export default class MultiPoint extends GeometryCollectionBase<Point> {
@@ -110,7 +106,7 @@ export default class MultiPoint extends GeometryCollectionBase<Point> {
 }
 ```
 
-### MultiLineString Class
+## MultiLineString Class
 Extends `GeometryCollectionBase<Point>`.
 ```javascript
 export default class MultiLineString extends GeometryCollectionBase<LineString> {
@@ -118,7 +114,7 @@ export default class MultiLineString extends GeometryCollectionBase<LineString> 
 }
 ```
 
-### MultiPolygon Class
+## MultiPolygon Class
 Extends `GeometryCollectionBase<Polygon>`.
 ```javascript
 export default class MultiPolygon extends GeometryCollectionBase<Polygon> {
@@ -126,7 +122,7 @@ export default class MultiPolygon extends GeometryCollectionBase<Polygon> {
 }
 ```
 
-### GeometryCollection Class
+## GeometryCollection Class
 Extends `GeometryCollectionBase<Geometry>`.
 ```javascript
 export default class GeometryCollection extends GeometryCollectionBase<Geometry> {
@@ -134,7 +130,7 @@ export default class GeometryCollection extends GeometryCollectionBase<Geometry>
     get geometries(): Geometry[];
 }
 ```
-### GeometryFactory Class
+## GeometryFactory Class
 All Geometries could be constructed by `GeometryFactory`. It also provides some shortcut of building some special polygons.
 
 ```javascript
@@ -152,82 +148,6 @@ export default class GeometryFactory {
 }
 ```
 
-## Related Types
+# Related Types
 The following types are related to the geometries above.
-
-### ICoordinate Interface
-```javascript
-export default interface ICoordinate {
-    x: number;
-    y: number;
-}
-```
-
-
-### IEnvelope Interface
-```javascript
-export default interface IEnvelope {
-    minx: number;
-    miny: number;
-    maxx: number;
-    maxy: number;
-}
-```
-
-
-### IFeature Interface
-```javascript
-export default interface IFeature {
-    id: number;
-    geometry: Geometry;
-    properties: Map<string, any>;
-    type?: string;
-}
-```
-
-
-### IGeoJSON Interface
-```javascript
-export default interface IGeoJSON {
-    type: string;
-    id?: number;
-    coordinates?: any;
-    geometries?: IGeoJSON[];
-    features?: IGeoJSON[];
-    geometry?: IGeoJSON;
-    properties?: any;
-}
-```
-
-
-### Envelope Class
-```javascript
-export default class Envelope implements IEnvelope {
-    minx: number;
-    miny: number;
-    maxx: number;
-    maxy: number;
-    constructor(minx: number, miny: number, maxx: number, maxy: number);
-    get width(): number;
-    get height(): number;
-    centroid(): ICoordinate;
-    expand(envelope: IEnvelope): void;
-    area(): number;
-    perimeter(): number;
-    static from(coordinates: any): Envelope;
-    static from(coordinates: ICoordinate[]): Envelope;
-    static union(env1: IEnvelope, env2: IEnvelope): Envelope;
-    static intersection(env1: IEnvelope | undefined, env2: IEnvelope | undefined): Envelope | undefined;
-    static unionAll(envelopes: IEnvelope[]): Envelope;
-    static disjoined(envelope1: IEnvelope | undefined, envelope2: IEnvelope | undefined): boolean;
-    static contains(envelope1: IEnvelope | undefined, envelope2: IEnvelope | undefined): boolean;
-    static intersects(envelope1: IEnvelope | undefined, envelope2: IEnvelope | undefined): boolean;
-    static equals(envelope1: IEnvelope | undefined, envelope2: IEnvelope | undefined, tolerance?: number): boolean;
-    static init(): Envelope;
-    static overlaps(envelope1: IEnvelope | undefined, envelope2: IEnvelope | undefined): boolean;
-}
-```
-
-
-
 
