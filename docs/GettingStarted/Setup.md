@@ -19,10 +19,10 @@ A good IDE will perfectly make your development easy. For a light weight develop
 
 __This is almost everything for setup. But for the multiple platforms, we have **slightly more** components to install.__
 
-### Desktop App Specific
+## Desktop App Specific
 To build a desktop mapping software, we need another framework for creating native applications with web technologies using JavaScript. `Electron`, `NW.js`, `Carlo` are recently popular frameworks to do such things. In our later demos, we will use `Electron` to introduce how to build a mapping software for desktop.
 
-### Web Service and Web App Specific
+## Web Service and Web App Specific
 `Ginkgoch Map Library` is not a client UI component, so a mature mapping UI component is required. We could chose `Leaflet` or `OpenLayers` or other map UI component for browser. We will use `Leaflet` for later demos. 
 
 Web service and web app is a little different from desktop app development. The key is that, Node.js is lack of graphics API support. Thus we need to install another 3rd party graphic module for rendering graphics on the server side. [canvas](https://www.npmjs.com/package/canvas) is my chosen one in current version. Refer to the [official document](https://github.com/Automattic/node-canvas) to install on a specific operation system.
@@ -43,7 +43,7 @@ Here is a quick reference for the dependencies.
 
 > Why Desktop App doesn't Require `canvas` module? Good question! Desktop is running on `electron`, which combines the Chromium's rendering library with Node.js. We don't need another graphic module to rendering anymore.
 
-### Command Line Tool Specific
+## Command Line Tool Specific
 For normal mapping related command line tool, Ginkgoch Map Library is enough to build functionalities for reading/querying features and doing spatial analysis. For special requirement that requires rendering, a 3rd party graphic module like `canvas` is also required.
 
 This is pretty much everything for setup. Until next time. 

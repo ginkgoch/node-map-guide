@@ -110,7 +110,7 @@ Save file and switch to the desktop window. Press `cmd+r` to refresh, you will s
 
 ![desktop-shp-overlap](assets/desktop-shp-overlap.png)
 
-#### Summary
+## Summary
 We can add more powerful features on the map, but we will stop here. I don't want to make the quick started demo complex. The purpose is to quickly start your mapping software development. We will introduce more map functions later.
 
 ![desktop-shp-overlap](assets/desktop-shp-overlap.gif)
