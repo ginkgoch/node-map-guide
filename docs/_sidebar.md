@@ -28,5 +28,5 @@
     * [Web](Advanced/Web.md) -->
 
 * [Meta](/Meta/)
-    * [Release Note](Meta/ReleaseNote.md)
+    * [Release Note](Meta/Release.md)
     * [FAQ](Meta/FAQ.md)
