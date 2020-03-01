@@ -1,4 +1,6 @@
-# Welcome 
+# Welcome
+
+> This is initial guide version for `Ginkgoch Map Library`. Due to the lack of resource (I personally maintain the projects, source code as well as this guide), I will gradually improve this guide when I available.
 
 Welcome to Ginkgoch MAP Library guide. Visit the [project in github](https://github.com/ginkgoch/node-map) and [my home page](https://ginkgoch.com). Feel free to [submit issues and requests](https://ginkgoch.com/#contact).
 

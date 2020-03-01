@@ -18,8 +18,7 @@
         * [Shared](Basis/Layers/Shared.md)
         * [FeatureSource](Basis/Layers/FeatureSource.md)
         * [Layer](Basis/Layers/Layer.md)
-    * [Maps](/Basis/Maps/)
-        * [Map](/Basis/Maps/Map.md)    
+    * [Map](/Basis/Maps/)
 
 <!-- * [Advanced](/Advanced/)
     * [Command Line](Advanced/CommandLine.md)

@@ -7,6 +7,6 @@ In General, it is formed with following features.
 * Sources
 * Styles
 * Layers
-* Renderer
+* Maps
 
-We will introduce those features in this section.
+We will introduce those features in this section as well as their API references.
