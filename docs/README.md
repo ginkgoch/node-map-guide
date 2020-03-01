@@ -1,8 +1,8 @@
-# Welcome
+# Welcome to Ginkgoch Map Library Guide
 
 > This is initial guide version for `Ginkgoch Map Library`. Due to the lack of resource (I personally maintain the projects, source code as well as this guide), I will gradually improve this guide when I available.
 
-Welcome to Ginkgoch MAP Library guide. Visit the [project in github](https://github.com/ginkgoch/node-map) and [my home page](https://ginkgoch.com). Feel free to [submit issues and requests](https://ginkgoch.com/#contact).
+Welcome to Ginkgoch MAP Library guide. Visit the [project in github](https://github.com/ginkgoch/node-map), [home page](https://ginkgoch.com) or [contact page](Meta/Contact). Feel free to [submit issues and requests](https://ginkgoch.com/#contact).
 
 `Ginkgoch MAP Library` is an open source map library for crafting beautify, cross platform mapping software, spatial analysis from a single codebase. It is written with Node.js, thus it is friendly to all JavaScript developers. If JavaScript is already one of your familiar programming language, you are ready to build your own mapping software for desktop, web applications, web services as well as mobile apps.
 
