@@ -28,4 +28,5 @@
 
 * [Meta](/Meta/)
     * [Release Note](Meta/Release.md)
+    * [Showcase](Meta/Showcase.md)
     * [FAQ](Meta/FAQ.md)
