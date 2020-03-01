@@ -13,6 +13,10 @@ https://github.com/ginkgoch/map-desktop-demo
 
 This is `Ginkgoch MAP SDK` feature demos for desktop. It includes all basic features for building a mapping software. All demos are designed as few clicks to represent what it can be done.
 
+* [Download executable for macOS](https://ginkgoch.s3.us-east-2.amazonaws.com/desktop-demo/ginkgoch-feature-demos-for-desktop-1.0.0-mac.zip)
+* [Download executable for Linux](https://ginkgoch.s3.us-east-2.amazonaws.com/desktop-demo/ginkgoch-feature-demos-for-desktop-1.0.0.AppImage)
+* ~Windows not available~ (I don't have a Windows machine 😂, but still allows to manually build)
+
 ![showcase-feature-demos-desktop](../assets/showcase-feature-demos-desktop.png)
 
 ## Shapefile Viewer for Desktop
@@ -33,6 +37,8 @@ A step-by-step tutorial to build a novel coronavirus map for China.
 https://github.com/ginkgoch/node-map-server
 
 This is a mapping service demo that allows for map visualization, querying and customization. `Docker` support.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EvgRDlh0V6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![showcase-map-rest-server](../assets/showcase-map-rest-server.png)
 

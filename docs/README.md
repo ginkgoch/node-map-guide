@@ -1,4 +1,4 @@
-# Welcome to Ginkgoch Map Library Guide
+# Welcome to Development Guide
 
 > This is initial guide version for `Ginkgoch Map Library`. Due to the lack of resource (I personally maintain the projects, source code as well as this guide), I will gradually improve this guide when I available.
 
